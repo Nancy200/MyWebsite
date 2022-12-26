@@ -1,0 +1,47 @@
+body {
+    background-color: #000000;
+}
+
+
+h1 {
+    font-size: 30px;
+    color: #FFFFFF;
+    background-color: rgb(1, 59, 87);
+    text-align: center;
+}
+
+h2 {
+    color: #FFFFFF;
+}
+h3 {
+    color: #FFFFFF;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif
+}   
+p {
+    color: #FFFFFF;
+}
+
+.tabs {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.tab {
+    cursor: pointer;
+    padding: 0px;
+    border: 1px solid #eee;
+    text-align: center;
+}
+
+.tab:hover {
+    background-color: rgb(1, 59, 87); 
+}
+
+.tab-pane.active {
+    display: block;
+}
+a {
+    text-decoration: none;
+}
